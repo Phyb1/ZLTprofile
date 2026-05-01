@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-6">
+      <h1 class="text-zlt mb-4">Contact ZLT</h1>
+      <p class="lead mb-4">Have a question about deliveries, payments, or contracts? We’re here to help.</p>
+      
+      <div class="mb-4">
+        <h5 class="text-zlt">Head Office</h5>
+        <p>Aspindale Park, Harare<br>Zimbabwe</p>
+      </div>
+      
+      <div class="mb-4">
+        <h5 class="text-zlt">Grower Helpline</h5>
+        <p>+263 77 123 4567<br><small class="text-muted">Available 0800-1700, Monday to Saturday</small></p>
+      </div>
+      
+      <div class="mb-4">
+        <h5 class="text-zlt">Email</h5>
+        <p>info@zlt.co.zw</p>
+      </div>
+
+      <div class="mt-5 p-4 bg-light rounded">
+        <h5 class="text-zlt">Why Contact Us?</h5>
+        <p>Whether you’re a first-time grower or an established producer, our team is ready to support you through every step of the tobacco season.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card shadow">
+        <div class="card-body p-4">
+          <h4 class="text-zlt mb-4">Send us a Message</h4>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="+263...">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Subject</label>
+              <select class="form-select">
+                <option>Grower Registration</option>
+                <option>Payment Inquiry</option>
+                <option>Contract Farming</option>
+                <option>General Question</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-zlt w-100">Send Message</button>
+            <small class="text-muted mt-2 d-block">*This is a prototype. Form will be functional in production.</small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

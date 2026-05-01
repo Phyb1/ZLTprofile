@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyc
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django
+*.sqlite3
+*.sqlite3-journal
+media/
+staticfiles/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
