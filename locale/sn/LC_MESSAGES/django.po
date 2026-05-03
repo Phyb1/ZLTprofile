@@ -1,0 +1,219 @@
+# Zimbabwe Leaf Tobacco Translations - Shona
+# Copyright (C) 2026 ZLT
+# This file is distributed under the same license as the ZLT package.
+# Phibeon Mazhuwa <phibeon@yahoo.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZLT 1.0\n"
+"Report-Msgid-Bugs-To: phibeon@yahoo.com\n"
+"POT-Creation-Date: 2026-05-02 15:07+0200\n"
+"PO-Revision-Date: 2026-05-03 08:30+0200\n"
+"Last-Translator: Phibeon Mazhuwa <phibeon@yahoo.com>\n"
+"Language-Team: Shona <sn@li.org>\n"
+"Language: sn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/base.html:9
+msgid "ZLT Company Profile | Modern Farming Solutions"
+msgstr "ZLT Company Profile | Kurima Kwechizvinozvino"
+
+#: templates/base.html:10
+msgid ""
+"ZLT designs and builds farm infrastructure for Zimbabwe’s climate, soil, and "
+"farmers. Land prep, irrigation, storage, agri-tech consulting."
+msgstr ""
+"ZLT inogadzira nekuvaka zvivakwa zvepurazi zvemamiriro ekunze eZimbabwe, ivhu, "
+"nevarimi. Kugadzirira minda, kudiridza, kuchengetedza, mazano etekinoroji yekurima."
+
+#: templates/base.html:11
+msgid ""
+"Zimbabwe farming, agricultural infrastructure, irrigation systems, farm "
+"storage, ZLT, tobacco farming"
+msgstr ""
+"Kurima kweZimbabwe, zvivakwa zvekurima, masisitimu ekudiridza, kuchengetedza "
+"kwepurazi, ZLT, kurima fodya"
+
+#: templates/base.html:24
+msgid "ZLT Company Profile"
+msgstr "ZLT Company Profile"
+
+#: templates/base.html:25
+msgid "Building farms that feed Zimbabwe"
+msgstr "Kuvaka mapurazi anopa Zimbabwe chikafu"
+
+#: templates/base.html:58
+msgid "Home"
+msgstr "Kumba"
+
+#: templates/base.html:59
+msgid "About"
+msgstr "Nezvedu"
+
+#: templates/base.html:60
+msgid "Services"
+msgstr "Masevhisi"
+
+#: templates/base.html:61
+msgid "Floors"
+msgstr "Ma Floors"
+
+#: templates/base.html:62
+msgid "Contact"
+msgstr "Tibatei"
+
+#: templates/base.html:68
+msgid "Language"
+msgstr "Mutauro"
+
+#: templates/base.html:77
+msgid "Toggle theme"
+msgstr "Chinja theme"
+
+#: templates/base.html:88 templates/core/home.html:12
+msgid "Zimbabwe Leaf Tobacco"
+msgstr "Zimbabwe Leaf Tobacco"
+
+#: templates/base.html:88
+msgid "Built with pride by a ZLT team member."
+msgstr "Yakagadzirwa nerudo nenhengo yechikwata cheZLT."
+
+#: templates/core/about.html:4
+msgid "About ZLT | Building Zimbabwe’s Tobacco Future"
+msgstr "Nezve ZLT | Kuvaka Ramangwana reFodya reZimbabwe"
+
+#: templates/core/about.html:5
+msgid ""
+"For over 60 years, ZLT has been the trusted partner for tobacco growers "
+"nationwide. Fair markets, sustainable growth, and grower support."
+msgstr ""
+"Kwemakore anodarika 60, ZLT yanga iri shamwari yakavimbika yevarimi vefodya "
+"munyika yese. Misika yakanaka, budiriro yakasimba, uye nekutsigira yevarimi."
+
+#: templates/core/about.html:6
+msgid "About Zimbabwe Leaf Tobacco"
+msgstr "Nezve Zimbabwe Leaf Tobacco"
+
+#: templates/core/about.html:7
+msgid ""
+"We build relationships with growers. From smallholder farmers to commercial "
+"growers, ZLT provides infrastructure, transparency, and support."
+msgstr ""
+"Tinovaka hukama nevarimi. Kubva kuvarimi vadiki kusvika kuvarimi vakuru, "
+"ZLT inopa zvivakwa, zvikwanisiro, uye tsigiro."
+
+#: templates/core/about.html:13
+msgid "Building Zimbabwe’s Tobacco Future"
+msgstr "Kuvaka Ramangwana reFodya reZimbabwe"
+
+#: templates/core/about.html:14
+msgid ""
+"For over 60 years, Zimbabwe Leaf Tobacco has been the trusted partner for "
+"growers nationwide, delivering fair markets and sustainable growth."
+msgstr ""
+"Kwemakore anodarika 60, Zimbabwe Leaf Tobacco yanga iri shamwari yakavimbika "
+"yevarimi munyika yese, ichiunza misika yakanaka nebudiriro yakasimba."
+
+#: templates/core/about.html:15
+msgid ""
+"We don’t just run auctions. We build relationships. From smallholder farmers "
+"in Marondera to commercial growers in Mashonaland, ZLT provides the "
+"infrastructure, transparency, and support that turns harvest into income."
+msgstr ""
+"Hatingomhanyisa ma auction chete. Tinovaka hukama. Kubva kuvarimi vadiki "
+"muMarondera kusvika kuvarimi vakuru kuMashonaland, ZLT inopa zvivakwa, "
+"kujeka, uye tsigiro inoshandura goho kuita mari."
+
+#: templates/core/about.html:19
+msgid "Years of Service"
+msgstr "Makore Ebasa"
+
+#: templates/core/about.html:23
+msgid "Auction Floors"
+msgstr "Ma Auction Floors"
+
+#: templates/core/about.html:27
+msgid "Growers Supported"
+msgstr "Varimi Vanotsigirwa"
+
+#: templates/core/about.html:34
+msgid "Our Commitment"
+msgstr "Chitsidzo Chedu"
+
+#: templates/core/about.html:36
+msgid "Transparent pricing and payments"
+msgstr "Mitengo nekubhadhara kuri pachena"
+
+#: templates/core/about.html:37
+msgid "Timely settlement within 72 hours"
+msgstr "Kubhadhara nenguva mukati memaawa 72"
+
+#: templates/core/about.html:38
+msgid "Technical agronomy support"
+msgstr "Tsigiro yehunyanzvi hwekurima"
+
+#: templates/core/about.html:39
+msgid "Access to inputs and financing"
+msgstr "Kuwana zvekushandisa nemari"
+
+#: templates/core/home.html:4
+msgid "ZLT Home | Zimbabwe Leaf Tobacco"
+msgstr "ZLT | Zimbabwe Leaf Tobacco"
+
+#: templates/core/home.html:5
+msgid ""
+"ZLT supports tobacco growers with auction services, contract farming, and "
+"grower support across Zimbabwe since 1964."
+msgstr ""
+"ZLT inotsigira varimi vefodya ne auction, kurima kwakabvumiranwa, uye "
+"tsigiro yevarimi muZimbabwe yese kubva 1964."
+
+#: templates/core/home.html:6
+msgid "Zimbabwe Leaf Tobacco | ZLT"
+msgstr "Zimbabwe Leaf Tobacco | ZLT"
+
+#: templates/core/home.html:7 templates/core/home.html:13
+msgid "Supporting growers. Delivering quality tobacco. Since 1964."
+msgstr "Kutsigira varimi. Kuunza fodya yemhando yepamusoro. Kubva 1964."
+
+#: templates/core/home.html:14
+msgid "Get in Touch"
+msgstr "Tibatei"
+
+#: templates/core/home.html:23
+msgid "Auction Services"
+msgstr "Ma Auction"
+
+#: templates/core/home.html:24
+msgid ""
+"Transparent and competitive tobacco sales across our auction floors "
+"nationwide."
+msgstr ""
+"Kutengeswa kwefodya kuri pachena uye kune makwikwi mumafloors edu "
+"munyika yese."
+
+#: templates/core/home.html:31
+msgid "Contract Farming"
+msgstr "Kurima Kwakabvumiranwa"
+
+#: templates/core/home.html:32
+msgid ""
+"Input support, agronomy advice, and guaranteed markets for our contracted "
+"growers."
+msgstr ""
+"Tsigiro yezvekushandisa, mazano ekurima, uye misika yakavimbiswa "
+"yevarimi vedu."
+
+#: templates/core/home.html:39
+msgid "Grower Support"
+msgstr "Tsigiro Yevarimi"
+
+#: templates/core/home.html:40
+msgid ""
+"Timely payments, training programs, and market information to help you "
+"succeed."
+msgstr ""
+"Kubhadhara nenguva, zvirongwa zvekudzidzisa, uye ruzivo rwemusika "
+"kuti ubudirire."

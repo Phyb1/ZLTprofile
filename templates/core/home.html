@@ -1,10 +1,17 @@
 {% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "ZLT Home | Zimbabwe Leaf Tobacco" %}{% endblock %}
+{% block meta_description %}{% trans "ZLT supports tobacco growers with auction services, contract farming, and grower support across Zimbabwe since 1964." %}{% endblock %}
+{% block og_title %}{% trans "Zimbabwe Leaf Tobacco | ZLT" %}{% endblock %}
+{% block og_description %}{% trans "Supporting growers. Delivering quality tobacco. Since 1964." %}{% endblock %}
+
 {% block content %}
 <div class="bg-zlt text-white py-5">
   <div class="container text-center">
-    <h1 class="display-4 fw-bold">Zimbabwe Leaf Tobacco</h1>
-    <p class="lead">Supporting growers. Delivering quality tobacco. Since 1964.</p>
-    <a href="/contact/" class="btn btn-zlt btn-lg">Get in Touch</a>
+    <h1 class="display-4 fw-bold">{% trans "Zimbabwe Leaf Tobacco" %}</h1>
+    <p class="lead">{% trans "Supporting growers. Delivering quality tobacco. Since 1964." %}</p>
+    <a href="{% url 'contact' %}" class="btn btn-zlt btn-lg">{% trans "Get in Touch" %}</a>
   </div>
 </div>
 
@@ -13,24 +20,24 @@
     <div class="col-md-4">
       <div class="card h-100 shadow-sm">
         <div class="card-body">
-          <h3 class="text-zlt">Auction Services</h3>
-          <p>Transparent and competitive tobacco sales across our auction floors nationwide.</p>
+          <h3 class="text-zlt">{% trans "Auction Services" %}</h3>
+          <p>{% trans "Transparent and competitive tobacco sales across our auction floors nationwide." %}</p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card h-100 shadow-sm">
         <div class="card-body">
-          <h3 class="text-zlt">Contract Farming</h3>
-          <p>Input support, agronomy advice, and guaranteed markets for our contracted growers.</p>
+          <h3 class="text-zlt">{% trans "Contract Farming" %}</h3>
+          <p>{% trans "Input support, agronomy advice, and guaranteed markets for our contracted growers." %}</p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card h-100 shadow-sm">
         <div class="card-body">
-          <h3 class="text-zlt">Grower Support</h3>
-          <p>Timely payments, training programs, and market information to help you succeed.</p>
+          <h3 class="text-zlt">{% trans "Grower Support" %}</h3>
+          <p>{% trans "Timely payments, training programs, and market information to help you succeed." %}</p>
         </div>
       </div>
     </div>

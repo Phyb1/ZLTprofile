@@ -1,35 +1,42 @@
 {% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "About ZLT | Building Zimbabwe’s Tobacco Future" %}{% endblock %}
+{% block meta_description %}{% trans "For over 60 years, ZLT has been the trusted partner for tobacco growers nationwide. Fair markets, sustainable growth, and grower support." %}{% endblock %}
+{% block og_title %}{% trans "About Zimbabwe Leaf Tobacco" %}{% endblock %}
+{% block og_description %}{% trans "We build relationships with growers. From smallholder farmers to commercial growers, ZLT provides infrastructure, transparency, and support." %}{% endblock %}
+
 {% block content %}
 <div class="container py-5">
   <div class="row align-items-center">
     <div class="col-lg-7">
-      <h1 class="text-zlt display-5 fw-bold mb-3">Building Zimbabwe’s Tobacco Future</h1>
-      <p class="lead">For over 60 years, Zimbabwe Leaf Tobacco has been the trusted partner for growers nationwide, delivering fair markets and sustainable growth.</p>
-      <p>We don’t just run auctions. We build relationships. From smallholder farmers in Marondera to commercial growers in Mashonaland, ZLT provides the infrastructure, transparency, and support that turns harvest into income.</p>
+      <h1 class="text-zlt display-5 fw-bold mb-3">{% trans "Building Zimbabwe’s Tobacco Future" %}</h1>
+      <p class="lead">{% trans "For over 60 years, Zimbabwe Leaf Tobacco has been the trusted partner for growers nationwide, delivering fair markets and sustainable growth." %}</p>
+      <p>{% trans "We don’t just run auctions. We build relationships. From smallholder farmers in Marondera to commercial growers in Mashonaland, ZLT provides the infrastructure, transparency, and support that turns harvest into income." %}</p>
       <div class="row mt-4">
         <div class="col-4">
           <h3 class="text-zlt">60+</h3>
-          <p>Years of Service</p>
+          <p>{% trans "Years of Service" %}</p>
         </div>
         <div class="col-4">
           <h3 class="text-zlt">3</h3>
-          <p>Auction Floors</p>
+          <p>{% trans "Auction Floors" %}</p>
         </div>
         <div class="col-4">
           <h3 class="text-zlt">10k+</h3>
-          <p>Growers Supported</p>
+          <p>{% trans "Growers Supported" %}</p>
         </div>
       </div>
     </div>
     <div class="col-lg-5">
       <div class="card shadow border-0" style="border-left: 5px solid #C9A961;">
         <div class="card-body p-4">
-          <h4 class="text-zlt">Our Commitment</h4>
+          <h4 class="text-zlt">{% trans "Our Commitment" %}</h4>
           <ul class="list-unstyled">
-            <li class="mb-2">✓ Transparent pricing and payments</li>
-            <li class="mb-2">✓ Timely settlement within 72 hours</li>
-            <li class="mb-2">✓ Technical agronomy support</li>
-            <li class="mb-2">✓ Access to inputs and financing</li>
+            <li class="mb-2">✓ {% trans "Transparent pricing and payments" %}</li>
+            <li class="mb-2">✓ {% trans "Timely settlement within 72 hours" %}</li>
+            <li class="mb-2">✓ {% trans "Technical agronomy support" %}</li>
+            <li class="mb-2">✓ {% trans "Access to inputs and financing" %}</li>
           </ul>
         </div>
       </div>

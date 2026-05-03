@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mathxuco/public_html
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp .env $DEPLOYPATH/.env
+    - cd $DEPLOYPATH
+    - /usr/bin/python3.13 -m pip install -r requirements.txt --user
+    - /usr/bin/python3.13 manage.py migrate --settings=zltProfile.settings.prod
+    - /usr/bin/python3.13 manage.py collectstatic --noinput --settings=zltProfile.settings.prod
+    - /usr/bin/python3.13 manage.py compilemessages
+    - /bin/touch tmp/restart.txt
